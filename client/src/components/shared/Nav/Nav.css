@@ -1,0 +1,8 @@
+.nav-container {
+  background-color: red;
+  height: 100vh;
+  width: 3vw;
+  display: sticky;
+  position: absolute;
+  right: 0;
+}
