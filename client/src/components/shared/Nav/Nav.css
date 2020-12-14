@@ -1,6 +1,6 @@
 .nav-container {
-  background-color: red;
-  height: 100vh;
+  background-color: transparent;
+  height: 100%;
   width: 0;
   position: fixed;
   right: 0;
@@ -9,15 +9,50 @@
   justify-content: space-between;
   transition: width 0.5s;
   transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
-}
-
-.nav-icon-container {
-  background-color: blue;
-  position: relative;
-  display: flex;
-  flex-direction: column;
+  z-index: 2;
+  /* display: none; */
 }
 
 .nav-transition {
   width: 3vw;
+}
+
+.nav-icon-container {
+  border: 2px solid blue;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-full {
+  height: 100vh;
+  width: 0%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* visibility: hidden; */
+  transition: width 0.5s;
+  transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
+  z-index: 2;
+}
+
+.open-nav {
+  width: 100%;
+  /* visibility: visible; */
+  left: 0;
+}
+
+.nav-full-link {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  transition: visibility 0.45s;
+  transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
+  /* transition-timing-function: ease-in-out; */
+}
+
+.open-link {
+  visibility: visible;
 }

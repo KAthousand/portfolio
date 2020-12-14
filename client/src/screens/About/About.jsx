@@ -29,6 +29,7 @@ function About(props) {
   return (
     <div className="about-container" ref={ourRef}>
       <PhotoCard visible={visible} />
+      <div className="resume-container"></div>
     </div>
   );
 }
