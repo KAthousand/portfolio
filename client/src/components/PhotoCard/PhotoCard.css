@@ -4,7 +4,6 @@
   width: 0%;
   transition: width 1.5s;
   transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
-  z-index: 1;
 }
 
 .card-transition {
