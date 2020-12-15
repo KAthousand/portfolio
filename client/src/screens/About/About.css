@@ -24,6 +24,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 0%;
+  position: relative;
+  bottom: -100px;
+  transition: opacity 1s, bottom 0.5s;
+  transition-delay: 1.5s;
+  transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
+  z-index: 5;
 }
 
 .resume-content h3 {

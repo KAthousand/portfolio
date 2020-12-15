@@ -1,3 +1,58 @@
 .work-container {
   height: 100vh;
+  display: flex;
+}
+
+.work-content {
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.blackjack {
+  background: url("../../assets/blackjack.png") no-repeat center center;
+  background-size: cover;
+}
+
+.paloma {
+  background: url("../../assets/paloma.png") no-repeat center center;
+  background-size: cover;
+}
+
+.high-noon {
+  background: url("../../assets/highnoon.png") no-repeat center center;
+  background-size: cover;
+}
+
+.blackjack,
+.paloma,
+.high-noon {
+  height: 100%;
+  transition: 0.25s;
+}
+
+/* .blackjack:hover,
+.paloma:hover,
+.high-noon:hover {
+  opacity: 30%;
+} */
+
+/* .description-container {
+  height: 80%;
+  width: 30%;
+  left: 40%;
+  position: relative;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 12%;
+} */
+
+.description {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(42, 42, 42, 0.5);
 }

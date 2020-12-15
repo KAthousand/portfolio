@@ -1,5 +1,4 @@
 import React from "react";
-import photo from "../../assets/kylethousand.jpg";
 import "../PhotoCard/PhotoCard.css";
 
 function PhotoCard(props) {
@@ -17,9 +16,7 @@ function PhotoCard(props) {
           visible ? "photo-card-content transition" : "photo-card-content"
         }
       >
-        <div className={visible ? "selfie transition" : "selfie"}>
-          {/* <img src={photo} alt="photo-of-kyle" className/> */}
-        </div>
+        <div className={visible ? "selfie transition" : "selfie"}></div>
         <div className={visible ? "box-one transition" : "box-one"}></div>
         <div className={visible ? "box-two transition" : "box-two"}></div>
         <div

@@ -30,7 +30,9 @@ function About(props) {
     <div className="about-container" ref={ourRef}>
       <PhotoCard visible={visible} />
       <div className="resume-container">
-        <div className="resume-content">
+        <div
+          className={visible ? "resume-content transition" : "resume-content"}
+        >
           <h3>software engineer in Detroit, Michigan</h3>
           <p>
             Starting with a passion for aesthetic design and artwork, my love of
