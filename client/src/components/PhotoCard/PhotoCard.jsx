@@ -30,7 +30,11 @@ function PhotoCard(props) {
             visible ? "hand-illustration hand-transition" : "hand-illustration"
           }
         ></div>
-        {/* <h3>Meet Kyle.</h3> */}
+        <div
+          className={visible ? "photo-card-text transition" : "photo-card-text"}
+        >
+          <h1>Meet Kyle.</h1>
+        </div>
       </div>
     </div>
   );

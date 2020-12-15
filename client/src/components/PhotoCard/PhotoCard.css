@@ -63,8 +63,8 @@
 }
 
 .hand-transition {
-  opacity: 100%;
-  left: 0px;
+  opacity: 90%;
+  left: -100px;
 }
 
 .box-one {
@@ -84,8 +84,8 @@
 }
 
 .box-two {
-  height: 250px;
-  width: 500px;
+  height: 45%;
+  width: 95%;
   background-color: var(--color-dark-orange);
   border-radius: 5px;
   position: absolute;
@@ -99,8 +99,8 @@
 }
 
 .box-three {
-  height: 400px;
-  width: 400px;
+  height: 65%;
+  width: 70%;
   background-color: var(--color-light-orange);
   border-radius: 5px;
   position: absolute;
@@ -116,4 +116,18 @@
 .box-transition {
   opacity: 100%;
   left: 25%;
+}
+
+.photo-card-text {
+  color: white;
+  font-size: 2em;
+  opacity: 0%;
+  position: absolute;
+  left: 80%;
+  top: 80%;
+  bottom: -100px;
+  transition: opacity 1s, bottom 0.5s;
+  transition-delay: 3s;
+  transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
+  z-index: 3;
 }

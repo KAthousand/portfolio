@@ -29,7 +29,20 @@ function About(props) {
   return (
     <div className="about-container" ref={ourRef}>
       <PhotoCard visible={visible} />
-      <div className="resume-container"></div>
+      <div className="resume-container">
+        <div className="resume-content">
+          <h3>software engineer in Detroit, Michigan</h3>
+          <p>
+            Starting with a passion for aesthetic design and artwork, my love of
+            functionality and structure evolved into my full-stack development
+            career. My working method comes from my service-industry experience;
+            a place of approachability, creativity, and calm under pressure. My
+            success has come through my innate ambition, attention to detail,
+            and desire to communicate my efforts to ensure efficiency and
+            viability.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
