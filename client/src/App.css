@@ -1,3 +1,11 @@
+:root {
+  --color-light-orange: #c97165;
+  --color-dark-orange: #64524e;
+  --color-dark: #40434b;
+  --font-header: "Bungee", cursive;
+  --font-content: "Open Sans", sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,6 +19,25 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee", cursive;
+  letter-spacing: 1px;
+}
+
+a {
+  color: var(--color-light-orange);
+  text-decoration: none;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
 }
 
 .hidden {

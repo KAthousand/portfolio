@@ -1,5 +1,5 @@
 .photo-card-container {
-  background-color: green;
+  background-color: var(--color-dark);
   height: 100%;
   width: 0%;
   transition: width 1.5s;
@@ -7,5 +7,5 @@
 }
 
 .card-transition {
-  width: 100%;
+  width: 80%;
 }

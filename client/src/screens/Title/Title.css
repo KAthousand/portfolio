@@ -1,16 +1,35 @@
 .title-container {
-  /* border: 2px solid blue; */
+  background-color: var(--color-light-orange);
   height: 100vh;
   width: 100%;
 }
 .title-border {
+  color: var(--color-light-orange);
+  background-color: var(--color-dark);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 5vh;
 }
 
-.title-illustration {
-  background-color: green;
+.title-illustration-background {
+  background-color: var(--color-dark-orange);
   height: 90vh;
+  border-top: 15px solid var(--color-dark-orange);
+  border-bottom: 15px solid var(--color-dark-orange);
+}
+
+.title-background-img {
+  height: 100%;
+  width: 100%;
+  background: url("../../assets/titlebackground.png") no-repeat center center;
+  background-size: cover;
+  opacity: 90%;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+  background: url("../../assets/logo.png") no-repeat center center;
+  background-size: contain;
 }
