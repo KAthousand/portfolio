@@ -2,6 +2,7 @@
   --color-light-orange: #c97165;
   --color-dark-orange: #64524e;
   --color-dark: #40434b;
+  --color-black: #24262c;
   --font-header: "Bungee", cursive;
   --font-content: "Open Sans", sans-serif;
 }
@@ -42,4 +43,9 @@ p {
 
 .hidden {
   display: none;
+}
+
+.transition {
+  opacity: 100%;
+  bottom: 0;
 }

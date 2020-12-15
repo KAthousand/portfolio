@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../Title/Title.css";
 
 function Title(props) {
+  const [visible, setVisible] = useState(false);
+  useEffect(() => {
+    setVisible(true);
+  }, []);
+
   return (
     <div className="title-container">
       <div className="title-border">
@@ -9,7 +14,7 @@ function Title(props) {
       </div>
       <div className="title-illustration-background">
         <div className="title-background-img">
-          <div className="logo"></div>
+          <div className={visible ? "logo transition" : "logo"}></div>
         </div>
       </div>
       <div className="title-border">
