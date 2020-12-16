@@ -1,0 +1,163 @@
+.photo-card-container {
+  background-color: var(--color-dark);
+  height: 100%;
+  width: 0%;
+  transition: width 1s;
+  /* transition-delay: 0.5s; */
+  transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-transition {
+  width: 40%;
+}
+
+.photo-card-content {
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 100%;
+  max-height: 600px;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -50px;
+  opacity: 0;
+  transition: opacity 1s, bottom 0.5s;
+  transition-delay: 1s;
+  transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
+}
+
+.selfie {
+  background: url("../../assets/kylethousand.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+  opacity: 0%;
+  position: relative;
+  right: 100px;
+  bottom: -100px;
+  transition: opacity 1s, bottom 0.5s;
+  transition-delay: 2s;
+  transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
+  z-index: 5;
+}
+
+.hand-illustration {
+  background: url("../../assets/handillustration.png") no-repeat center center;
+  background-size: contain;
+  height: 125%;
+  width: 125%;
+  position: absolute;
+  top: -300px;
+  left: 50px;
+  opacity: 0%;
+  transition: opacity 1s, left 0.5s;
+  transition-delay: 2.5s;
+  transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
+}
+
+.hand-transition {
+  /* border: 2px solid red; */
+  opacity: 90%;
+  top: -140px;
+  left: 100px;
+}
+
+.box-one {
+  height: 250px;
+  width: 250px;
+  border: 10px solid var(--color-black);
+  border-radius: 10px;
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  bottom: -100px;
+  opacity: 0%;
+  z-index: 2;
+  transition: opacity 1s, bottom 0.5s;
+  transition-delay: 1.5s;
+  transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
+}
+
+.box-two {
+  height: 45%;
+  width: 95%;
+  background-color: var(--color-dark-orange);
+  border-radius: 5px;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  bottom: -100px;
+  opacity: 0%;
+  transition: opacity 1s, bottom 1s;
+  transition-delay: 2s;
+  transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
+}
+
+.box-three {
+  height: 65%;
+  width: 70%;
+  background-color: var(--color-orange);
+  border-radius: 5px;
+  position: absolute;
+  left: -300%;
+  opacity: 0%;
+  transition-delay: 2.25s;
+  transition: opacity 1s, left 0.5s;
+  transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
+}
+
+.box-transition {
+  opacity: 100%;
+  left: 25%;
+}
+
+.photo-card-text {
+  color: var(--color-light-orange);
+  font-size: 2em;
+  opacity: 0%;
+  position: absolute;
+  left: 80%;
+  top: 82%;
+  bottom: -100px;
+  transition-delay: 2.5s;
+  transition: opacity 1s, bottom 0.5s;
+
+  transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
+  z-index: 3;
+}
+
+@media only screen and (max-width: 1200px) {
+  .photo-card-text {
+    left: 10vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .photo-card-container {
+    width: 100%;
+  }
+  .hand-illustration {
+    height: 100%;
+    width: 72vw;
+    /* transform: scale(1.75); */
+  }
+  .hand-transition {
+    /* bottom: 200px; */
+    top: 0%;
+    left: 10%;
+  }
+
+  .box-two {
+    width: 60vw;
+  }
+
+  .photo-card-text {
+    left: 50vw;
+  }
+}

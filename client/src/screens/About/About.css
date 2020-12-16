@@ -1,0 +1,13 @@
+.about-container {
+  height: 100vh;
+  display: flex;
+  background-color: var(--color-light-orange);
+  /* flex-direction: column; */
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-container {
+    height: 200vh;
+    flex-direction: column;
+  }
+}

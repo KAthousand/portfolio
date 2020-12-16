@@ -1,0 +1,11 @@
+.work-container {
+  height: 100vh;
+  display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+  .work-container {
+    height: 200vh;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,23 @@
+.work-card-container {
+  background-color: var(--color-black);
+  border-right: 100px solid var(--color-dark);
+  height: 100%;
+  width: 50%;
+}
+
+.work-card-content {
+  background: url("../../assets/worktitle.png") no-repeat center center;
+  background-size: contain;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 4%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .work-card-container {
+    width: 100%;
+  }
+}
