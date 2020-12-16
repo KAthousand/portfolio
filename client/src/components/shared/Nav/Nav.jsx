@@ -46,13 +46,23 @@ function Nav(props) {
             href="https://github.com/KAthousand"
             target="_blank"
             className="fa fa-github"
-          ></a>
+            rel="noreferrer"
+            alt="link-to-github"
+          >
+            {" "}
+          </a>
           <a
             href="https://www.linkedin.com/in/kathousand/"
             target="_blank"
             className="fa fa-linkedin"
-          ></a>
-          <a href="#contact" className="fa fa-envelope"></a>
+            rel="noreferrer"
+            alt="link-to-linkedin"
+          >
+            {" "}
+          </a>
+          <a href="#contact" className="fa fa-envelope">
+            {" "}
+          </a>
         </div>
       </div>
     </>

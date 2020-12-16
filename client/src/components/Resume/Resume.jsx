@@ -59,6 +59,8 @@ function Resume(props) {
           <a
             href="https://drive.google.com/file/d/11bYu_mrsz9Y-kmxSTSyPewGgZWzUH384/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
+            alt="link-to-resume"
           >
             <h3>Link to Resume</h3>
           </a>

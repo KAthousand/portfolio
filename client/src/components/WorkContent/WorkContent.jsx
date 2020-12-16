@@ -25,12 +25,20 @@ function WorkContent(props) {
                 href="https://github.com/KAthousand/blackjackGame"
                 target="_blank"
                 className="contact-icon fa fa-github"
-              ></a>
+                rel="noreferrer"
+                alt="link-to-github"
+              >
+                {" "}
+              </a>
               <a
                 href="https://kathousand.github.io/blackjackGame/"
                 target="_blank"
                 className="contact-icon fa fa-external-link-square"
-              ></a>
+                rel="noreferrer"
+                alt="link-to-deploy"
+              >
+                {" "}
+              </a>
             </div>
           </div>
         )}
@@ -54,12 +62,20 @@ function WorkContent(props) {
                 href="https://github.com/KAthousand/blackjackGame"
                 target="_blank"
                 className="contact-icon fa fa-github"
-              ></a>
+                rel="noreferrer"
+                alt="link-to-github"
+              >
+                {" "}
+              </a>
               <a
                 href="https://kathousand.github.io/blackjackGame/"
                 target="_blank"
                 className="contact-icon fa fa-external-link-square"
-              ></a>
+                rel="noreferrer"
+                alt="link-to-deploy"
+              >
+                {" "}
+              </a>
             </div>
           </div>
         )}
@@ -83,12 +99,20 @@ function WorkContent(props) {
                 href="https://github.com/KAthousand/blackjackGame"
                 target="_blank"
                 className="contact-icon fa fa-github"
-              ></a>
+                rel="noreferrer"
+                alt="link-to-github"
+              >
+                {" "}
+              </a>
               <a
                 href="https://kathousand.github.io/blackjackGame/"
                 target="_blank"
                 className="contact-icon fa fa-external-link-square"
-              ></a>
+                rel="noreferrer"
+                alt="link-to-deploy"
+              >
+                {" "}
+              </a>
             </div>
           </div>
         )}

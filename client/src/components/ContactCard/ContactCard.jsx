@@ -9,12 +9,20 @@ function ContactCard(props) {
           href="https://github.com/KAthousand"
           target="_blank"
           className="contact-icon fa fa-github"
-        ></a>
+          rel="noreferrer"
+          alt="link-to-github"
+        >
+          {" "}
+        </a>
         <a
           href="https://www.linkedin.com/in/kathousand/"
           target="_blank"
           className="contact-icon fa fa-linkedin"
-        ></a>
+          rel="noreferrer"
+          alt="link-to-linkedin"
+        >
+          {" "}
+        </a>
       </div>
       <div className="back-to-top">
         <a href="title">

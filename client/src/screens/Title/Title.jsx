@@ -19,7 +19,32 @@ function Title(props) {
       </div>
       <div className="title-border">
         <h3>
-          <a href="#">About</a> / <a href="#">Work</a> / <a href="#">Contact</a>
+          <a
+            href="#about"
+            rel="noreferrer"
+            alt="link-to-about"
+            className="title-link"
+          >
+            About
+          </a>{" "}
+          /{" "}
+          <a
+            href="#Work"
+            rel="noreferrer"
+            alt="link-to-work"
+            className="title-link"
+          >
+            Work
+          </a>{" "}
+          /{" "}
+          <a
+            href="#contact"
+            rel="noreferrer"
+            alt="link-to-contact"
+            className="title-link"
+          >
+            Contact
+          </a>
         </h3>
       </div>
     </div>
