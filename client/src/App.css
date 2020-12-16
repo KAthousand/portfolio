@@ -1,8 +1,9 @@
 :root {
-  --color-light-orange: #c97165;
-  --color-dark-orange: #64524e;
+  --color-light-orange: #df5757;
+  --color-orange: #b45657;
+  --color-dark-orange: #79544e;
   --color-dark: #40434b;
-  --color-black: #24262c;
+  --color-black: #322d2a;
   --font-header: "Bungee", cursive;
   --font-content: "Open Sans", sans-serif;
 }

@@ -29,8 +29,9 @@
 }
 
 .contact-form-content h1 {
-  color: white;
+  color: var(--color-black);
   font-size: 5em;
+  margin-bottom: -10px;
 }
 
 .contact-form-content input,
@@ -51,13 +52,18 @@
   font-family: var(--font-header);
   font-size: 2em;
   letter-spacing: 1px;
-  margin-top: 10px;
+  margin-top: 40px;
   border: none;
   /* border: 10px solid var(--color-dark-orange); */
   border-radius: 5px;
-  color: var(--color-light-orange);
+  color: var(--color-dark);
   /* color: white; */
+  background-color: var(--color-light-orange);
+}
+
+.contact-form-content button:hover {
   background-color: var(--color-dark);
+  color: var(--color-light-orange);
 }
 
 @media only screen and (max-width: 1000px) {

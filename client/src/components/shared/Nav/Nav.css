@@ -44,6 +44,11 @@
   visibility: hidden;
   transition: visibility 0.45s;
   transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
+  font-size: 3em;
+}
+
+.nav-full-link a:hover {
+  color: var(--color-dark);
 }
 
 .open-link {
@@ -80,4 +85,10 @@
 
 .nav-icon-transition {
   transform: rotate(225deg);
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-icon-container {
+    display: none;
+  }
 }

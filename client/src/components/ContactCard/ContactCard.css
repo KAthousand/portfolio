@@ -9,11 +9,27 @@
   color: var(--color-dark);
 }
 
+.ufo {
+  background: url("../../assets/ufo.png") no-repeat center center;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .contact-card-icons {
   display: flex;
+  margin-bottom: 5%;
+}
+.contact-card-icons a {
+  margin: 10px;
 }
 
 .back-to-top h3 {
+  margin-bottom: 20%;
   color: var(--color-dark-orange);
 }
 
