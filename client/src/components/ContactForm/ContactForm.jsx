@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import "../ContactForm/ContactForm.css";
 function ContactForm(props) {
   const [formData, setFormData] = useState({
+    name: "",
     email: "",
     subject: "",
     message: "",
@@ -15,15 +17,60 @@ function ContactForm(props) {
     }));
   };
 
+  const resetForm = () => {
+    setFormData({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    let templateParams = {
+      from_name: formData.email,
+      to_name: formData.name,
+      subject: formData.subject,
+      message: formData.message,
+    };
+
+    emailjs
+      .send(
+        "service_uwwhv4a",
+        "template_jtqehcq",
+        templateParams,
+        "user_vl0Aylj3LGoA5wdsRilR1"
+      )
+      .then((res) => {
+        console.log("Success!", res.status, res.text);
+      })
+      .catch((err) => {
+        console.error("Failed...", err);
+      });
+
+    resetForm();
+  };
+
   return (
     <div className="contact-form-container">
       <div className="contact-form-content">
         <h1>Say Hello</h1>
-        <form>
+        <form onSubmit={handleSubmit}>
+          <label>
+            <input
+              name="name"
+              placeholder="Your Name..."
+              value={formData.name}
+              onChange={handleChange}
+            />
+          </label>
+          <br />
           <label>
             <input
               name="email"
-              placeholder="Email..."
+              placeholder="Email Address..."
               value={formData.email}
               onChange={handleChange}
             />

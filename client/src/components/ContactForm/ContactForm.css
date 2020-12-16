@@ -12,7 +12,6 @@
 }
 
 .contact-form-content {
-  /* border: 2px solid green; */
   height: 80%;
   width: 80%;
   display: flex;
@@ -26,6 +25,8 @@
   width: 80%;
   text-align: center;
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-form-content h1 {
@@ -43,21 +44,18 @@
 }
 
 .contact-form-content textarea {
-  height: 80%;
+  height: 100%;
 }
 
 .contact-form-content button {
-  /* width: 20%; */
   padding: 20px 30px;
   font-family: var(--font-header);
   font-size: 2em;
   letter-spacing: 1px;
   margin-top: 40px;
   border: none;
-  /* border: 10px solid var(--color-dark-orange); */
   border-radius: 5px;
   color: var(--color-dark);
-  /* color: white; */
   background-color: var(--color-light-orange);
 }
 
