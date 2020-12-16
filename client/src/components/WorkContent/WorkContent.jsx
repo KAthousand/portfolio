@@ -15,9 +15,13 @@ function WorkContent(props) {
           <div className="description">
             <div className="description-text">
               <h1>Blackjack</h1>
+              <h4>
+                Front-End App built with vanilla JavaScript, CSS, and HTML
+              </h4>
               <p>
-                Play a game of blackjack written completely in HTML, CSS, and
-                vanilla JavaScript
+                Play a game of blackjack against the dealer! Cards are dealt
+                using the deck of cards API, all logic written using vanilla
+                JavaScript!
               </p>
             </div>
             <div className="link-container">
@@ -52,14 +56,17 @@ function WorkContent(props) {
           <div className="description">
             <div className="description-text">
               <h1>Paloma</h1>
+              <h4>Front-End React App using Airtable Back-end</h4>
               <p>
                 A recipe database and search engine for classic cocktail
-                recipes.
+                recipes. Create your own recipes with up to 10 ingredients, edit
+                existing recipes, or remove them completely. Features history
+                behind classic recipes, as well as garnishes.
               </p>
             </div>
             <div className="link-container">
               <a
-                href="https://github.com/KAthousand/blackjackGame"
+                href="https://github.com/KAthousand/paloma-react-app"
                 target="_blank"
                 className="contact-icon fa fa-github"
                 rel="noreferrer"
@@ -68,7 +75,7 @@ function WorkContent(props) {
                 {" "}
               </a>
               <a
-                href="https://kathousand.github.io/blackjackGame/"
+                href="https://compassionate-allen-e27455.netlify.app/"
                 target="_blank"
                 className="contact-icon fa fa-external-link-square"
                 rel="noreferrer"
@@ -89,14 +96,18 @@ function WorkContent(props) {
           <div className="description">
             <div className="description-text">
               <h1>High Noon</h1>
+              <h4>Full-Stack App built with Ruby on Rails via React</h4>
               <p>
                 A Western shooting gallery game designed to improve your type
-                speed and accuracy.
+                speed and accuracy. Create a user with password encryption, play
+                the game, and save your score onto the scoreboard! Users can add
+                and delete their scores, as well as comment on any scores on the
+                board. Comments made by the user can be edited and deleted.
               </p>
             </div>
             <div className="link-container">
               <a
-                href="https://github.com/KAthousand/blackjackGame"
+                href="https://github.com/KAthousand/HighNoon"
                 target="_blank"
                 className="contact-icon fa fa-github"
                 rel="noreferrer"
@@ -105,7 +116,7 @@ function WorkContent(props) {
                 {" "}
               </a>
               <a
-                href="https://kathousand.github.io/blackjackGame/"
+                href="http://high-noon.surge.sh/"
                 target="_blank"
                 className="contact-icon fa fa-external-link-square"
                 rel="noreferrer"

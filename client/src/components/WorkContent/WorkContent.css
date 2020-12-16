@@ -31,15 +31,37 @@
 .description {
   height: 100%;
   width: 100%;
-  background-color: rgba(42, 42, 42, 0.85);
+  background-color: rgba(42, 42, 42, 0.8);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.description-text {
+  width: 60%;
+}
+
+.description-text h1 {
+  color: var(--color-light-orange);
+}
+
+.description-text h4 {
+  margin-top: 10px;
+  color: var(--color-orange);
+  letter-spacing: 1px;
+}
+
+.description-text p {
+  margin-top: 20px;
+  color: white;
 }
 
 .link-container {
   display: flex;
+  /* border: 2px solid red; */
+  width: 80%;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 1000px) {
