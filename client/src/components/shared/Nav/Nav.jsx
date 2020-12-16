@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../Nav/Nav.css";
+import "./Nav.css";
 
 function Nav(props) {
   const [mount, setMount] = useState(false);
