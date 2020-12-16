@@ -44,6 +44,7 @@ function ContactForm(props) {
         "user_vl0Aylj3LGoA5wdsRilR1"
       )
       .then((res) => {
+        alert("Message successfully sent!");
         console.log("Success!", res.status, res.text);
       })
       .catch((err) => {
