@@ -16,3 +16,9 @@
 .back-to-top h3 {
   color: var(--color-dark-orange);
 }
+
+@media only screen and (max-width: 1000px) {
+  .contact-card-container {
+    width: 100%;
+  }
+}

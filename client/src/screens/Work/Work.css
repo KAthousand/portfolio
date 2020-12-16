@@ -3,46 +3,9 @@
   display: flex;
 }
 
-.work-content {
-  height: 100%;
-  width: 50%;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-}
-
-.blackjack {
-  background: url("../../assets/blackjack.png") no-repeat center center;
-  background-size: cover;
-}
-
-.paloma {
-  background: url("../../assets/paloma.png") no-repeat center center;
-  background-size: cover;
-}
-
-.high-noon {
-  background: url("../../assets/highnoon.png") no-repeat center center;
-  background-size: cover;
-}
-
-.blackjack,
-.paloma,
-.high-noon {
-  height: 100%;
-  transition: 0.25s;
-}
-
-.description {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(42, 42, 42, 0.85);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.link-container {
-  display: flex;
+@media only screen and (max-width: 1000px) {
+  .work-container {
+    height: 200vh;
+    flex-direction: column;
+  }
 }
