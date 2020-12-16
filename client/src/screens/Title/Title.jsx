@@ -8,7 +8,7 @@ function Title(props) {
   }, []);
 
   return (
-    <div className="title-container">
+    <div className="title-container" id="home">
       <div className="title-border">
         <h3>Software Engineer</h3>
       </div>

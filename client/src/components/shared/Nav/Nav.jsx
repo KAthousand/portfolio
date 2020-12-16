@@ -13,13 +13,24 @@ function Nav(props) {
       <div className={fullNav ? "nav-full open-nav" : "nav-full"}>
         <div className={fullNav ? "nav-full-link open-link" : "nav-full-link"}>
           <h3>
-            <a href="#">About</a>
+            <a href="#home" onClick={() => setFullNav(!fullNav)}>
+              Home
+            </a>
           </h3>
           <h3>
-            <a href="#">Work</a>
+            <a href="#about" onClick={() => setFullNav(!fullNav)}>
+              About
+            </a>
           </h3>
           <h3>
-            <a href="#">Contact</a>
+            <a href="#work" onClick={() => setFullNav(!fullNav)}>
+              Work
+            </a>
+          </h3>
+          <h3>
+            <a href="#contact" onClick={() => setFullNav(!fullNav)}>
+              Contact
+            </a>
           </h3>
         </div>
       </div>
@@ -30,14 +41,18 @@ function Nav(props) {
         >
           +
         </button>
-        <div
-          className={
-            mount ? "nav-icon-container icon-transition" : "nav-icon-container"
-          }
-        >
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
+        <div className="nav-icon-container">
+          <a
+            href="https://github.com/KAthousand"
+            target="_blank"
+            className="fa fa-github"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/kathousand/"
+            target="_blank"
+            className="fa fa-linkedin"
+          ></a>
+          <a href="#contact" className="fa fa-envelope"></a>
         </div>
       </div>
     </>

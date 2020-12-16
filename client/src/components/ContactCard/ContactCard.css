@@ -2,7 +2,17 @@
   height: 100%;
   width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--color-light-orange);
+  color: var(--color-dark);
+}
+
+.contact-card-icons {
+  display: flex;
+}
+
+.back-to-top h3 {
+  color: var(--color-dark-orange);
 }

@@ -2,8 +2,8 @@
   background-color: var(--color-dark);
   height: 100%;
   width: 0%;
-  transition: width 1.5s;
-  transition-delay: 0.5s;
+  transition: width 1s;
+  /* transition-delay: 0.5s; */
   transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@
   bottom: -50px;
   opacity: 0;
   transition: opacity 1s, bottom 0.5s;
-  transition-delay: 2s;
+  transition-delay: 1s;
   transition-timing-function: ease-in-out, cubic-bezier(0.82, 0.01, 0.77, 0.78);
 }
 

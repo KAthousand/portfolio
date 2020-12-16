@@ -27,7 +27,7 @@ function About(props) {
   }, []);
 
   return (
-    <div className="about-container" ref={ourRef}>
+    <div className="about-container" id="about" ref={ourRef}>
       <PhotoCard visible={visible} />
       <div className="resume-container">
         <div

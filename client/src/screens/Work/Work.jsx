@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "../Work/Work.css";
 import WorkCard from "../../components/WorkCard/WorkCard";
 
@@ -9,7 +8,7 @@ function Work(props) {
   const [hoverThree, setHoverThree] = useState(false);
 
   return (
-    <div className="work-container">
+    <div className="work-container" id="work">
       <WorkCard />
       <div className="work-content">
         <div
@@ -27,8 +26,16 @@ function Work(props) {
                 </p>
               </div>
               <div className="link-container">
-                <Link to="">GitHub</Link>
-                <Link to="">Deploy</Link>
+                <a
+                  href="https://github.com/KAthousand/blackjackGame"
+                  target="_blank"
+                  className="contact-icon fa fa-github"
+                ></a>
+                <a
+                  href="https://kathousand.github.io/blackjackGame/"
+                  target="_blank"
+                  className="contact-icon fa fa-external-link-square"
+                ></a>
               </div>
             </div>
           )}
@@ -48,8 +55,16 @@ function Work(props) {
                 </p>
               </div>
               <div className="link-container">
-                <Link to="">GitHub</Link>
-                <Link to="">Deploy</Link>
+                <a
+                  href="https://github.com/KAthousand/blackjackGame"
+                  target="_blank"
+                  className="contact-icon fa fa-github"
+                ></a>
+                <a
+                  href="https://kathousand.github.io/blackjackGame/"
+                  target="_blank"
+                  className="contact-icon fa fa-external-link-square"
+                ></a>
               </div>
             </div>
           )}
@@ -69,8 +84,16 @@ function Work(props) {
                 </p>
               </div>
               <div className="link-container">
-                <Link to="">GitHub</Link>
-                <Link to="">Deploy</Link>
+                <a
+                  href="https://github.com/KAthousand/blackjackGame"
+                  target="_blank"
+                  className="contact-icon fa fa-github"
+                ></a>
+                <a
+                  href="https://kathousand.github.io/blackjackGame/"
+                  target="_blank"
+                  className="contact-icon fa fa-external-link-square"
+                ></a>
               </div>
             </div>
           )}
