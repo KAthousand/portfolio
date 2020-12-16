@@ -4,7 +4,9 @@ import "../WorkCard/WorkCard.css";
 function WorkCard(props) {
   return (
     <div className="work-card-container">
-      <h1> hello world</h1>
+      <div className="work-card-content">
+        <h1> Work</h1>
+      </div>
     </div>
   );
 }

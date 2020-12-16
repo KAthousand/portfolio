@@ -3,3 +3,10 @@
   height: 100%;
   width: 50%;
 }
+
+.work-card-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

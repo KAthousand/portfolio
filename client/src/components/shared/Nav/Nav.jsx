@@ -24,7 +24,12 @@ function Nav(props) {
         </div>
       </div>
       <div className={mount ? "nav-container nav-transition" : "nav-container"}>
-        <button onClick={() => setFullNav(!fullNav)}>+</button>
+        <button
+          onClick={() => setFullNav(!fullNav)}
+          className={fullNav ? "nav-icon nav-icon-transition" : "nav-icon"}
+        >
+          +
+        </button>
         <div
           className={
             mount ? "nav-icon-container icon-transition" : "nav-icon-container"
