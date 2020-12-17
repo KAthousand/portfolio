@@ -45,9 +45,9 @@
 
 @media only screen and (max-width: 600px) {
   .title-container {
-    height: 90vh;
+    height: 85vh;
   }
   .title-illustration-background {
-    height: 74vh;
+    height: 69vh;
   }
 }
