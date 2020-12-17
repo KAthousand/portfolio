@@ -42,3 +42,12 @@
 .title-link:hover {
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .title-container {
+    height: 90vh;
+  }
+  .title-illustration-background {
+    height: 74vh;
+  }
+}

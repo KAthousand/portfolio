@@ -11,3 +11,9 @@
     flex-direction: column;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .about-container {
+    height: 190vh;
+  }
+}
