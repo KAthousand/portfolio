@@ -161,3 +161,15 @@
     left: 50vw;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .hand-illustration {
+    /* border: 2px solid blue; */
+    width: 95vw;
+    left: -1vw;
+    top: 2vw;
+  }
+  .photo-card-text {
+    left: 20%;
+  }
+}

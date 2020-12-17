@@ -91,4 +91,7 @@
   .nav-icon-container {
     display: none;
   }
+  .nav-transition {
+    right: 5vh;
+  }
 }

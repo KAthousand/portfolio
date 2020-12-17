@@ -97,3 +97,9 @@
     padding: 5% 5% 0% 5%;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .resume-content-container {
+    height: 75vh;
+  }
+}
