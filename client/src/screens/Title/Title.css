@@ -24,7 +24,7 @@
   width: 100%;
   background: url("../../assets/titlebackground.png") no-repeat center center;
   background-size: cover;
-  opacity: 90%;
+  opacity: 90;
 }
 
 .logo {
