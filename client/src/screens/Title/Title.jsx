@@ -29,7 +29,7 @@ function Title(props) {
           </a>{" "}
           /{" "}
           <a
-            href="#Work"
+            href="#work"
             rel="noreferrer"
             alt="link-to-work"
             className="title-link"

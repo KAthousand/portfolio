@@ -63,7 +63,7 @@
 
 .hand-transition {
   /* border: 2px solid red; */
-  opacity: 90%;
+  opacity: 90;
   top: -140px;
   left: 100px;
 }
@@ -113,7 +113,7 @@
 }
 
 .box-transition {
-  opacity: 100%;
+  opacity: 100;
   left: 25%;
 }
 

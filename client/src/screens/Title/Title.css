@@ -24,7 +24,7 @@
   width: 100%;
   background: url("../../assets/titlebackground.png") no-repeat center center;
   background-size: cover;
-  opacity: 90%;
+  opacity: 90;
 }
 
 .logo {
@@ -45,9 +45,9 @@
 
 @media only screen and (max-width: 600px) {
   .title-container {
-    height: 90vh;
+    height: 85vh;
   }
   .title-illustration-background {
-    height: 74vh;
+    height: 69vh;
   }
 }
